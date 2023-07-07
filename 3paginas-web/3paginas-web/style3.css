@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/*  ---Menu Var*/
+.menu-container{
+    width: 100%;
+    height: 6em;
+    background-color: rgb( 35, 55, 109);
+    padding: 0 8em;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container_logo{
+    width: 12.25em;
+    height: 4.5em;
+}
+
+.menu-container_nav p{
+    display: inline-block;
+    margin: auto auto;
+    color: white;
+    font-size: 0.8em;
+    margin: 0 3em;
+}
+
+/*  --------------------Fondo */
+
+.fondo img{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+}
+
+.titulo1{
+    display: block;
+    margin: 2.5em auto .1em auto;
+    width: 31em;
+}
+
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 52%;
+}
+.container p{
+    text-align: center;
+    color: #23376d;
+    font-size: 18px;
+}
+
+.cuadro{
+    width: 100px;
+    height: 1000px;
+}
